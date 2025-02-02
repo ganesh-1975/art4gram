@@ -19,7 +19,7 @@ function Testimonials() {
       picture:
         "https://media.istockphoto.com/id/1180926773/photo/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-arms.webp?a=1&b=1&s=612x612&w=0&k=20&c=cinmPjbkyRi8OCmGmoNYnywF7fnVB6pVi00Oi0flIx0=",
     },
-    
+
     {
       name: "Sara Khan",
       role: "Graphic Designer",
@@ -41,7 +41,9 @@ function Testimonials() {
   return (
     <>
       <div className="p-8">
-        <h1>Our Clients Feedback</h1>
+        <h1 className="font-black text-4xl text-center mb-10">
+          Trusted by our <span className="font-medium italic">clients</span>
+        </h1>
         <div className="flex justify-between">
           {items.map((item) => (
             <TestimonialCard

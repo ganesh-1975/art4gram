@@ -1,17 +1,16 @@
 import React from "react";
 
-function ServiceCard({img, title}) {
+function ServiceCard({img, title, desc}) {
   
   return (
     <>
-      <div className="p-3 border rounded-xl border-neutral-500 w-fit shadow">
+      <div className="p-3 border rounded-xl border-neutral-500 w-[460px] shadow">
         <img
           src={img}
-          height="400px"
-          width="400px"
-          className="rounded-xl mb-2"
+          className="rounded-xl mb-4 h-[280px] object-cover w-full"
         />
-        <h3>{title}</h3>
+        <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+        <p className="text-neutral-400 my-3">{desc}</p>
       </div>
     </>
   );
