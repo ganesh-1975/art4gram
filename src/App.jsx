@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
@@ -10,6 +11,7 @@ function App() {
       <Landing/>
       <Services/>
       <Testimonials/>
+      <Footer/>
     </>
   );
 }

@@ -18,7 +18,7 @@ function Navbar() {
           </li>
         </ul>
         <div className="bg-white text-black px-4 py-2 rounded-xl">
-          <a href="https://wa.me/919499003946?text=I LOVE YOU" target="_blank">
+          <a href="https://wa.me/919499003946?text=Hi there!" target="_blank">
             Get in Touch 
           </a>
         </div>
