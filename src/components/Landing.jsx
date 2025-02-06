@@ -4,9 +4,14 @@ import a4g from "../assets/a4g.mp4";
 function Landing() {
   return (
     <>
-      <div className="relative h-[calc(100vh-120px)] rounded-4xl">
-        <video src={a4g} muted autoPlay className="h-full w-full "></video>
-        <div className="text-center absolute top-0 translate-[42%] ">
+      <div className="h-[calc(100vh-116px)] relative">
+        <video
+          src={a4g}
+          muted
+          autoPlay
+          className="w-full h-full object-cover"
+        ></video>
+        <div className="text-center absolute -top-5 translate-[42%] ">
           <div>
             <h1 className="font-black text-4xl mb-6">
               Designing the Future, One Pixel at a Time.
